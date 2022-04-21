@@ -1,0 +1,164 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>White Eagle Labs Patiala</title>
+    <link rel="stylesheet" href="./plugins/Semantic-UI-CSS-master/semantic.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
+ 
+</head>
+<body>
+ <!-- ----------------------------------------------------------------------- -->
+<!--                                  Menu                                   -->
+<!-- ----------------------------------------------------------------------- -->
+
+<div class="bg-dark p-3 text-right m-0 dark-menu">
+    <div class="ui container text-white">
+        <i class="icon phone"></i> <span class="mr-3 text-white">12345-12345</span>
+        <i class="icon envelope outline"></i>info@whiteeaglelabs.com
+    </div>
+</div>
+<!-- mobile-menu -->
+<div class="ui   secondary   menu m-0   mobile-nav">
+    <div class="left menu">
+        <div class="  item">
+            <img src="./img/logo.svg" alt="White Eagle Labs Logo" class="ui small image   ">
+        </div>
+    </div>
+    <a href="#" class="ui right small  header item m-0 p-0 sidebar-menu-toggler " class="sidebar-menu-toggler item"
+        data-target="#sidebar">
+        <i class="icon bars"></i>
+    </a>
+</div>
+<!-- sidebar -->
+<div class="ui sidebar inverted vertical menu sidebar-menu shadow-sm " id="sidebar">
+    <a href="index.html" class="  item  ">
+        Home
+    </a>
+    <a href="products.html" class="  item  ">
+        Products
+    </a>
+    <a href="about.html" class="  item  ">
+        About Us
+    </a>
+    <a href="contact.html" class="  item  ">
+        Contact
+    </a>
+    <div class="    item">
+        <div class="header  ">
+            Tablets
+        </div>
+        <div class=" menu pl-5 ">
+            <a href="products.html" class="header item">
+                <div>
+                    <!-- <i class="icon tachometer alternate average mr-3"></i>  -->
+                    General Range
+                </div>
+            </a>
+            <a href="#" class="header item">
+                <div>
+                    <!-- <i class="icon tachometer alternate average mr-3"></i>  -->
+                    Derma range
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="    item">
+        <div class="header  ">
+            Capsules
+        </div>
+        <div class=" menu pl-5 ">
+            <a href="products.html" class="header item">
+                <div>
+                    <!-- <i class="icon tachometer alternate average mr-3"></i>  -->
+                    General Range
+                </div>
+            </a>
+            <a href="#" class="header item">
+                <div>
+                    <!-- <i class="icon tachometer alternate average mr-3"></i>  -->
+                    Derma range
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="    item">
+        <div class="header  ">
+            External Preperations
+        </div>
+        <div class=" menu pl-5 ">
+            <a href="products.html" class="header item">
+                <div>
+                    <!-- <i class="icon tachometer alternate average mr-3"></i>  -->
+                    Cream
+                </div>
+            </a>
+            <a href="#" class="header item">
+                <div>
+                    <!-- <i class="icon tachometer alternate average mr-3"></i>  -->
+                    Gel
+                </div>
+            </a>
+            <a href="#" class="header item">
+                <div>
+                    <!-- <i class="icon tachometer alternate average mr-3"></i>  -->
+                    Ointment
+                </div>
+            </a>
+            <a href="#" class="header item">
+                <div>
+                    <!-- <i class="icon tachometer alternate average mr-3"></i>  -->
+                    Lotion/Shampoo
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+<!-- desktop menu -->
+<div class="ui container desktop-nav">
+    <div class="ui text stackable     m-0 menu  ">
+        <div class="ui item header">
+            <a href="index.html">
+            <img src="./img/logo.svg" alt="White Eagle Labs Logo" class="ui huge image w-75">
+        </a>
+        </div>
+        <div class="ui text    right menu ">
+            <a href="index.html" class="ui item font-weight-bold ">Home</a>
+            <a href="products.html" class="ui item font-weight-bold ">Products</a>
+            <a href="about.html" class="ui item font-weight-bold active-menu">About Us</a>
+            <a href="contact.html" class="ui item font-weight-bold ">Contact Us</a>
+        </div>
+    </div>
+</div>
+
+<!-- ----------------------------------------------------------------------- -->
+<!--                               end of menu                               -->
+<!-- ----------------------------------------------------------------------- -->
+
+ 
+    <!-- javascripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="./plugins/Semantic-UI-CSS-master/semantic.js"></script>
+     
+<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    <script src="./js/custom.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            autoHeight: true,
+            loop: true,
+            spaceBetween: 0,
+            autoplay : true,
+          pagination: {
+            el: '.swiper-pagination',
+            dynamicBullets: true,
+          },
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+        });
+      </script>
+</body>
+</html>
